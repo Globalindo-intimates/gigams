@@ -24,7 +24,8 @@ class App extends BaseConfig
      * @var string
      */
     // public $baseURL = 'http://localhost:8080/';
-    public $baseURL = 'http://192.168.10.3/gigams/';
+    // public $baseURL = 'http://192.168.10.3/gigams/';
+    public $baseURL = 'http://192.168.10.3/gigams/public/';
 
     /**
      * --------------------------------------------------------------------------
@@ -56,8 +57,8 @@ class App extends BaseConfig
      *
      * @var string
      */
-    // public $uriProtocol = 'REQUEST_URI';
-    public $uriProtocol = 'PATH_INFO';
+    public $uriProtocol = 'REQUEST_URI';
+    // public $uriProtocol = 'PATH_INFO';
 
     /**
      * --------------------------------------------------------------------------
